@@ -1,5 +1,5 @@
 # Programacao_WEB
-Alguns sites desenvolvidos em HTML/CSS
+Alguns sites desenvolvidos em HTML/CSS:
 
 Site sobre Covid-19
 ![1](https://user-images.githubusercontent.com/37301918/172669055-e43a50dc-b2b5-4f98-bd2b-4201b7ab6d87.PNG)
