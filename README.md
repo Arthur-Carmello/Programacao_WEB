@@ -7,7 +7,6 @@ Site sobre Covid-19
 ![3](https://user-images.githubusercontent.com/37301918/172669087-11b61623-54fe-4c14-b662-7d08b419531e.PNG)
 
 Site sobre Esportes Aquáticos
-
 ![5](https://user-images.githubusercontent.com/37301918/172669235-8cc8ff9c-bc01-478e-b086-15e8e7a52382.PNG)
 ![6](https://user-images.githubusercontent.com/37301918/172669485-111baf2d-b32c-40a3-a5c6-a0aceea5c1e5.PNG)
 ![7](https://user-images.githubusercontent.com/37301918/172669492-72c2cfdc-4ee3-4b0c-b323-d6d639c60813.PNG)
