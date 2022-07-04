@@ -20,6 +20,10 @@ Site sobre Regimes Políticos
 ![fhfgfhf](https://user-images.githubusercontent.com/37301918/177208325-7495a06e-2afc-4ec7-82ee-33fe0cd04481.PNG)
 ![vvcxvxcv](https://user-images.githubusercontent.com/37301918/177208328-3fb11d4f-2274-4d7f-ac15-d704e1896388.PNG)
 
+Urna e Cadastro de Candidatos
+![xzczxcz](https://user-images.githubusercontent.com/37301918/177210812-9261fce6-e2de-44ec-8121-b8abd6c218a9.PNG)
+![fdczdcd](https://user-images.githubusercontent.com/37301918/177210821-81662c7b-7735-4ad4-89e2-d88a01d1b4cc.PNG)
+
 Site sobre Esportes Aquáticos
 
 ![5](https://user-images.githubusercontent.com/37301918/172669235-8cc8ff9c-bc01-478e-b086-15e8e7a52382.PNG)
