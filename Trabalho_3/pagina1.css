@@ -1,0 +1,98 @@
+body {
+    background-image: url(img/grunge.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#imgrei {
+   width: 70px;
+   height: 70px;
+}
+
+#imgmonarquia {
+    float: left;
+    width: 400px;
+    height: 250px; 
+}
+
+#imgmonarquia1 {
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+
+#imgmonarquia2 {
+    width: 300px;
+    height: 300px;
+}
+
+div {
+  background-color:rgb(34, 20, 8);
+  opacity: .80;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 40px;
+    color:rgb(34, 20, 8);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: black;
+    background-color: olive;
+    font-size: 30px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: black 0px 1px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+figure {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    float: left;
+}
+
+a {
+    background-color: rgb(43, 33, 33);
+    font-family: 'Arial', 'Trebuchet MS';
+    font-size: 30px;
+    color: rgb(248, 144, 8);
+}
+
+#links {
+    margin-top: 2;
+    width: 80px;
+    height: 30px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+#gif1 {
+    float: center;
+    width: 35px;
+    height: 30px;
+}
+
+foster {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(51, 228, 228);
+    background-color: darkslategrey;
+}

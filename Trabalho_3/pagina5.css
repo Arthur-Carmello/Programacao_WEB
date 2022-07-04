@@ -1,0 +1,88 @@
+body {
+    background-image: url(img/fundo5.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 40px;
+    color:rgb(253, 206, 206);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 30px;
+    color: rgba(216, 150, 130, 0.986);
+    text-align: center;
+    background-color: rgb(141, 21, 0);
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 20px;
+    text-align: justify;
+    color: #ffff;
+}
+
+div {
+    background-color: rgb(54, 8, 0);
+    opacity: .90;
+}
+
+a {
+    background-color: rgb(43, 33, 33);
+    font-family: 'Arial', 'Trebuchet MS';
+    font-size: 30px;
+    color: rgb(248, 144, 8);
+}
+
+#gif1 {
+    float: center;
+    width: 35px;
+    height: 30px;
+}
+
+#links {
+    margin-top: 2;
+    width: 80px;
+    height: 30px;
+}
+
+figure {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    float: left;
+}
+
+#ol1 {
+    width: 300px;
+    height: 350px;
+    float: left;
+}
+
+#img1 {
+    width: 180px;
+    height: 160px;
+    float: left;
+    padding: 10;
+}
+
+foster {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(51, 228, 228);
+    background-color: darkslategrey;
+}
+
+#img_ol {
+    width: 200px;
+    height: 140px;
+}
