@@ -3,6 +3,7 @@ Alguns sites desenvolvidos em HTML/CSS:
 
 Site Macafrios
 ![Capturar](https://user-images.githubusercontent.com/37301918/177207394-46274952-130a-45a0-b538-c4755b595005.PNG)
+![asaa](https://user-images.githubusercontent.com/37301918/177207539-9888f97f-65c2-4ef4-9e3f-8c60fa8cbd3c.PNG)
 ![Capturar1](https://user-images.githubusercontent.com/37301918/177207403-68cf714d-9f6c-4d55-b5d2-00810821d9e6.PNG)
 
 Site sobre Covid-19
