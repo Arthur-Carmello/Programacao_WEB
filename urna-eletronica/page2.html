@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/page2.css" />
+    <title>Cadastro de Candidatos</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1 class="mb-0">
+                Cadastro de Candidatos
+            </h1>
+        </div>
+    </div>
+    <input type="hidden" id="hfRowIndex" value="" />
+    <table class="table">
+        <tr>
+            <td> ID <input type="text" name="id" id="txtId" value="1" /></td>
+        </tr>
+        <tr>
+            <td> Nome <input type="text" name="Nome" id="txtNome" value=""></td>
+        </tr>
+        <tr>
+            <td> Legenda <input type="text" name="Legenda" id="txtLegenda" value=""></td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn btn-primary mr-2" id='btnAdd'>Salvar</button>
+                <button class="btn btn-primary mr-2" id='btnUpdate' style="display: none;">Atualizar</button> 
+                <button class="btn btn-secondary" id='btnClean'>Cancelar</button>
+            </td>
+        </tr>
+    </table>
+    <table id="tblNames" class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Legenda</th>
+                <th>Editar</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+    </table>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#btnAdd').on('click', function () {
+                var nome, legenda, id;
+                id = $("#txtId").val();
+                nome = $("#txtNome").val();
+                legenda = $("#txtLegenda").val();
+ 
+                var editar = "<a class='edit' href='JavaScript:void(0);' >Editar</a>";
+                var excluir = "<a class='delete' href='JavaScript:void(0);'>Excluir</a>";
+ 
+                if (nome == "" || legenda == "") {
+                    alert("Name and Country fields required!");
+                } else {
+                    var table = "<tr><td>" + id + "</td><td>" + nome + "</td><td>" + legenda + "</td><td>" + editar + "</td><td>" + excluir + "</td></tr>";
+                    $("#tblNames").append(table);
+                }
+                id = $("#txtId").val("");
+                nome = $("#txtNome").val("");
+                legenda = $("#txtLegenda").val("");
+                Clear();
+            });
+ 
+            $('#btnUpdate').on('click', function () {
+                var nome, legenda, id;
+                id = $("#txtId").val();
+                nome = $("#txtNome").val();
+                legenda = $("#txtLegenda").val();
+ 
+                $('#tblNames tbody tr').eq($('#hfRowIndex').val()).find('td').eq(1).html(nome);
+                $('#tblNames tbody tr').eq($('#hfRowIndex').val()).find('td').eq(2).html(legenda);
+ 
+                $('#btnAdd').show();
+                $('#btnUpdate').hide();
+                Clear();
+            });
+ 
+            $("#tblNames").on("click", ".delete", function (e) {
+                if (confirm("Are you sure want to delete this record!")) {
+                    $(this).closest('tr').remove();
+                } else {
+                    e.preventDefault();
+                }
+            });
+ 
+            $('#btnClear').on('click', function () {
+                Clear();
+            });
+ 
+            $("#tblNames").on("click", ".edit", function (e) {
+                var row = $(this).closest('tr');
+                $('#hfRowIndex').val($(row).index());
+                var td = $(row).find("td");
+                $('#txtId').val($(td).eq(0).html());
+                $('#txtNome').val($(td).eq(1).html());
+                $('#txtLegenda').val($(td).eq(2).html());
+                $('#btnAdd').hide();
+                $('#btnUpdate').show();
+            });
+        });
+        function Clear() {
+            document.getElementById('txtId').value='';
+            document.getElementById('txtNome').value='';
+            document.getElementById('txtLegenda').value='';
+
+        }
+    </script>
+</body>
+</html>

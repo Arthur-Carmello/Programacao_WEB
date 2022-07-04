@@ -1,0 +1,90 @@
+.container {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.area1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    border: solid 0.5px;
+    left: 50%;
+    margin-left: -370px;
+    top: 50%;
+    margin-top: -150px;
+    position: absolute;
+    height: 357px;
+    width: 500px;
+    padding-left: 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+#input, #input2{
+    height: 60px;
+    width: 40px;
+  }
+
+.subarea {
+    position: absolute;
+    border: solid 0.5px;
+    left: 30%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -200px;
+    position: absolute;
+    height: 50px;
+    width: 820px;
+    background-color: rgb(235, 235, 235);
+    text-align: end;
+    font-size: 10px;
+}
+
+.area2 {
+    top: 50%;
+    margin-right: 200px;
+    margin-top: -150px;
+    position: absolute;
+    background-color: #444;
+    height: 300px;
+    width: 250px;
+    right: 20px;
+    padding: 30px;
+}
+
+.btn_number {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 2px;
+    height: 30px;
+    width: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37); 
+}
+
+.area3 {
+    margin: 30px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: black;
+}
+
+.btn_branco {
+    height: 50px;
+    width: 75px;
+}
+
+.btn_corrige {
+    height: 50px;
+    width: 75px;
+    background-color: #E67401;
+}
+
+.btn_confirma {
+    height: 60px;
+    width: 90px;
+    background-color: green;
+}
+
