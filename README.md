@@ -21,6 +21,7 @@ Site sobre Regimes Políticos
 ![vvcxvxcv](https://user-images.githubusercontent.com/37301918/177208328-3fb11d4f-2274-4d7f-ac15-d704e1896388.PNG)
 
 Urna e Cadastro de Candidatos
+
 ![xzczxcz](https://user-images.githubusercontent.com/37301918/177210812-9261fce6-e2de-44ec-8121-b8abd6c218a9.PNG)
 ![fdczdcd](https://user-images.githubusercontent.com/37301918/177210821-81662c7b-7735-4ad4-89e2-d88a01d1b4cc.PNG)
 
