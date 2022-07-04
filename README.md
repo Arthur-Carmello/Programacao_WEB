@@ -5,6 +5,8 @@ Site Macafrios
 ![Capturar](https://user-images.githubusercontent.com/37301918/177207394-46274952-130a-45a0-b538-c4755b595005.PNG)
 ![asaa](https://user-images.githubusercontent.com/37301918/177207539-9888f97f-65c2-4ef4-9e3f-8c60fa8cbd3c.PNG)
 ![Capturar1](https://user-images.githubusercontent.com/37301918/177207403-68cf714d-9f6c-4d55-b5d2-00810821d9e6.PNG)
+![Capturar2](https://user-images.githubusercontent.com/37301918/177207634-5b782794-39be-4e9d-9ae2-f4430a8a44d3.PNG)
+
 
 Site sobre Covid-19
 ![1](https://user-images.githubusercontent.com/37301918/172669055-e43a50dc-b2b5-4f98-bd2b-4201b7ab6d87.PNG)
